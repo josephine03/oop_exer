@@ -72,6 +72,17 @@
 		$type->setSpeed(100);
     	$type->getSpeed();
 
+        $type = new vehicle();
+        $type->setVehicle(" aerox");
+        $type->getVehicle();
+        $type = new vehicle();
+        $type->setFuel("premium");
+        $type->getFuel();
+        $type = new vehicle();
+        $type->setCapacity(1);
+        $type->getCapacity();
+        $type->setSpeed(80);
+        $type->getSpeed();
 
     	
     	
